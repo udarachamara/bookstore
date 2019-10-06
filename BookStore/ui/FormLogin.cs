@@ -98,7 +98,7 @@ namespace BookStore
 
         private void LoadDashboard()
         {
-            Dashboard dashboard = new Dashboard();
+            FormDashboard dashboard = new FormDashboard();
             this.Hide();
             dashboard.ShowDialog();
             this.Close();

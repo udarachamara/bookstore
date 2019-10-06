@@ -1,0 +1,7 @@
+E:\development\pos\BookStore\obj\Debug\BookStore.ui.Dashboard.resources
+E:\development\pos\BookStore\obj\Debug\BookStore.ui.FormDashboard.resources
+E:\development\pos\BookStore\obj\Debug\BookStore.FormLogin.resources
+E:\development\pos\BookStore\obj\Debug\Pos.Properties.Resources.resources
+E:\development\pos\BookStore\obj\Debug\BookStore.ui.tasks.home.resources
+E:\development\pos\BookStore\obj\Debug\Pos.csproj.GenerateResource.Cache
+E:\development\pos\BookStore\bin\Debug\Pos.exe.config

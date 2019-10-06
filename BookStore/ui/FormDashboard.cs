@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BookStore.ui.tasks;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,7 +16,15 @@ namespace BookStore.ui
         public FormDashboard()
         {
             InitializeComponent();
+            FormHome home = new FormHome();
+            home.TopLevel = false;
+            home.AutoScroll = true;
+            panelFormDocker.Controls.Add(home);
+            home.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            home.Dock = DockStyle.Fill;
+            home.Show();
             RunTimer();
+
         }
 
         public void RunTimer()
@@ -25,7 +34,7 @@ namespace BookStore.ui
                 System.Threading.Thread.Sleep(1000);
                 RunTimer();
             });
-            
+
         }
 
         private void setLabelClockTimeSafe()
@@ -36,5 +45,6 @@ namespace BookStore.ui
             else
                 lblClock.Text = time;
         }
+
     }
 }
